@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div {
+  width: 20%;
+  height: 100%;
+}
+nav div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: yellow;
+}
+.active {
+  color: black;
+}
+nav ul li a:hover {
+  color: purple;
+}
+.section-one {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.section-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.section-one div {
+  width: 80%;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  color: white;
+}
+.section-one div h1 {
+  font-size: 3rem;
+}
+.section-one div h1 span {
+  color: yellow;
+}
+
+.section-two {
+  width: 80%;
+  height: 100vh;
+}
+.section-two h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 5rem 0 3rem 0;
+}
+.section-two .info {
+  display: flex;
+  padding: 0 1rem;
+}
+.section-two .info p {
+  width: 30%;
+}
+.section-two .info div {
+  width: 60%;
+  height: 400px;
+}
+.section-two .info div img {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+}
